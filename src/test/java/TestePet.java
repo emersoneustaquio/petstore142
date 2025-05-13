@@ -7,10 +7,10 @@
 
 import org.junit.jupiter.api.Test;
 
-public class TesteUser {
+public class TestePet {
     //2.1 atributos
     static String ct = "application/json"; // content-type
-    static String uriUser = "https://petstore.swagger.io/v2/user";
+    static String uriPet = "https://petstore.swagger.io/v2/pet";
 
     //2.2 funções e metodos
     //2.2.1 funcções e metrodos comuns / uteis
@@ -20,6 +20,7 @@ public class TesteUser {
     public static String lerArquivoJson (String arquivoJson){
         //To Do: Completar a leitura do arquivo
         //return new String(Files)
+        return null;
     }
 
     @Test
